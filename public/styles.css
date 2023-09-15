@@ -1,0 +1,32 @@
+/* Reset some default browser styles */
+body, h1, p, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color to the page */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Style the header */
+header {
+    background-color: #50b3a2;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Style the main content */
+main {
+    padding: 1em;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
