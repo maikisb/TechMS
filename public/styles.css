@@ -30,3 +30,29 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
+
+@media only screen and (max-width: 600px) {
+    /* Add your mobile-specific styles here */
+}
+
+/* Media Query for Screens Larger than 600px */
+@media only screen and (min-width: 600px) {
+  header, footer {
+    padding: 2em;
+  }
+}
+
+/* Flexible Grids */
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Use Relative Units */
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 2em;  /* 32px */
+}
